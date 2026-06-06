@@ -5,7 +5,9 @@ This repository contains a MITM script and configuration for Shadowrocket to byp
 ## Files
 - 
 odevideo.js — The HTTP response rewriter. Spoofs pro_permanent and pro_yearly entitlements.
-- NodeVideo_Shadowrocket.conf — The module definition. Proxies evenuecat.com and intercepts the subscribers / eceipts endpoints.
+- NodeVideo_Shadowrocket.conf — The module definition. Proxies 
+evenuecat.com and intercepts the subscribers / 
+eceipts endpoints.
 
 ## Usage
 1. Open Shadowrocket.
