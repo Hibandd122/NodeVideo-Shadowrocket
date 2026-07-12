@@ -51,4 +51,5 @@ obj.subscriber.original_purchase_date = "2023-01-01T00:00:00Z";
 obj.subscriber.management_url = "https://apps.apple.com/account/subscriptions";
 obj.subscriber.first_seen = "2023-01-01T00:00:00Z";
 
+obj.request_date = new Date().toISOString();
 $done({ body: JSON.stringify(obj) });
